@@ -18,7 +18,7 @@ This repository contains our submission for Laboratory Activity#1: Working with 
 3. [Transaction ID or the link of the conversation](https://chatgpt.com/share/68cadd1a-e038-8005-b5a5-95c230d33d28) 
 
 ## Grades
-1. Leader: John Harold R. Magma
+- Leader: John Harold R. Magma
 ### Members 
 - Keren G. Dellosa - 100
 - Jemuel Chris N. Ambong - 99
