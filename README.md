@@ -20,5 +20,5 @@ This repository contains our submission for Laboratory Activity#1: Working with 
 ## Grades
 1. Leader: John Harold R. Magma
 ### Members 
-Keren G. Dellosa - 100
-Jemuel Chris N. Ambong - 99
+- Keren G. Dellosa - 100
+- Jemuel Chris N. Ambong - 99
