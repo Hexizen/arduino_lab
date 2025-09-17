@@ -3,9 +3,9 @@
 This repository contains our submission for Laboratory Activity#1: Working with Digital Signals
 
 ## Table of Contents
-1. [Files Description](##files)
-2. [Generative AI](##ai)
-3. [Grades](##grades)
+1. [Files Description](#files)
+2. [Generative AI](#ai)
+3. [Grades](#grades)
 
 ## Files
 1. Arduino Code Sketch File (*.ino)
