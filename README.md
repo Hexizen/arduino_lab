@@ -13,7 +13,7 @@ This repository contains our submission for Laboratory Activity#1: Working with 
 3. Video Simulating the Breadboard and its corresponding Circuit Diagram on TinkerCad
 
 ## AI
-1. [Prompts used to transact with your selected Generative AI](https://drive.google.com/file/d/1beN8GDW3ndDqYJMFIYeLfcAsPPANdYqv/view?usp=sharing)
+1. [Prompts used to transact with your selected Generative AI](https://docs.google.com/document/d/1YUGxfiXmXEUhCk1DWNWxE9lhMgbccCB0d_DhGxzq_O8/edit?usp=sharing)
 2. Model used to generate the content: ChatGPT 5
 3. [Transaction ID or the link of the conversation](https://chatgpt.com/share/68cadd1a-e038-8005-b5a5-95c230d33d28) 
 
