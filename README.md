@@ -6,7 +6,7 @@ This repository contains our submission for the Laboratory Activities in COSC 11
 1. [Laboratory Activity#1: Working with Digital Signals](https://github.com/Hexizen/arduino_lab/tree/main/Laboratory%20Activity%231)
 2. [Laboratory Activity#2: Working with Analog Signals](https://github.com/Hexizen/arduino_lab/tree/main/Laboratory%20Activity%232)
 
-## <h1> For each Laboratory submission, it will include the following: </h1>
+## <h1> Laboratory submissions include the following: </h1>
 
 ### Files
 
