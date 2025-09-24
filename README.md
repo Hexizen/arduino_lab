@@ -17,7 +17,7 @@ This repository contains our submission for the Laboratory Activities in COSC 11
 
 ### AI
 1. Prompts used to transact with your selected Generative AI
-2. Model used to generate the content: ChatGPT 5
+2. Model used to generate the content
 3. Transaction ID or the link of the conversation
 
 ### Members
