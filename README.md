@@ -6,21 +6,21 @@ This repository contains our submission for the Laboratory Activities in COSC 11
 1. Laboratory Activity#1: Working with Digital Signals
 2. Laboratory Activity#2: 
 
-<h1> For each Laboratory submission, it will include the following: </h1>
+## <h1> For each Laboratory submission, it will include the following: </h1>
 
-## Files
+### Files
 
 1. Arduino Code Sketch File (*.ino)
 2. Breadboard Diagram (*.png, .jpg)
 3. Tinkercad Diagram and Simulation (tinkercard url)
-4. Video Simulating the Breadboard and its corresponding Circuit Diagram on TinkerCad
+4. Video simulating the breadboard and its corresponding circuit diagram on Tinkercad
 
-## AI
+### AI
 1. Prompts used to transact with your selected Generative AI
 2. Model used to generate the content: ChatGPT 5
 3. Transaction ID or the link of the conversation
 
-## Members
+### Members
 - John Harold R. Magma
 - Keren G. Dellosa
 - Jemuel Chris N. Ambong
