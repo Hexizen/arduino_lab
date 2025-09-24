@@ -1,4 +1,4 @@
-# Laboratory Activity#2: Working with Digital Signals
+# Laboratory Activity#2: Working with Analog Signals
 
 This repository contains our submission for Laboratory Activity#1: Working with Digital Signals
 
@@ -23,3 +23,4 @@ This repository contains our submission for Laboratory Activity#1: Working with 
 ### Members 
 - John Harold R. Magma - 100
 - Keren G. Dellosa - 99
+
