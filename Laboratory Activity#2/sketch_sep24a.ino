@@ -8,33 +8,40 @@ void setup() {
 }
 
 void loop() {
-  // Turn ON LEDs one by one (with 1s delay)
-  for (int i = 0; i < numLeds; i++) {
+  int i = 0;
+
+  // === Turn ON LEDs one by one ===
+  while (i < numLeds) {
     if (leds[i] == 9 || leds[i] == 10 || leds[i] == 11) {
-      // PWM pins → fade in
-      for (int b = 0; b <= 255; b++) {
-        analogWrite(leds[i], b);
-        delay(4);  // ~1s total fade
+      int step = 0;
+      while (step <= 100) {
+        int brightness = map(step, 0, 100, 0, 255);
+        analogWrite(leds[i], brightness);
+        delay(10);  // smooth fade (~1s total)
+        step++;
       }
     } else {
-      // Non-PWM pins → instant ON
       digitalWrite(leds[i], HIGH);
     }
-    delay(1000);  // 1 second before moving to the next LED
+    delay(1000);  // 1s delay before next LED
+    i++;
   }
 
-  // Turn OFF LEDs one by one (with 1s delay)
-  for (int i = 0; i < numLeds; i++) {
+  // === Turn OFF LEDs one by one ===
+  i = 0;
+  while (i < numLeds) {
     if (leds[i] == 9 || leds[i] == 10 || leds[i] == 11) {
-      // PWM pins → fade out
-      for (int b = 255; b >= 0; b--) {
-        analogWrite(leds[i], b);
-        delay(4);  // ~1s total fade
+      int step = 100;
+      while (step >= 0) {
+        int brightness = map(step, 0, 100, 0, 255);
+        analogWrite(leds[i], brightness);
+        delay(10);  // smooth fade (~1s total)
+        step--;
       }
     } else {
-      // Non-PWM pins → instant OFF
       digitalWrite(leds[i], LOW);
     }
-    delay(1000);  // 1 second before moving to the next LED
+    delay(1000);  // 1s delay before next LED
+    i++;
   }
 }
