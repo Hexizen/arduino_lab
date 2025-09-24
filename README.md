@@ -6,7 +6,7 @@ This repository contains our submission for the Laboratory Activities in COSC 11
 1. Laboratory Activity#1: Working with Digital Signals
 2. Laboratory Activity#2: 
 
-For each Laboratory submission, it will include the following:
+<h1> For each Laboratory submission, it will include the following: </h1>
 
 ## Files
 
