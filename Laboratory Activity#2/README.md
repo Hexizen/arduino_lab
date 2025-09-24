@@ -10,7 +10,7 @@ This repository contains our submission for Laboratory Activity#1: Working with 
 ## Files
 1. Arduino Code Sketch File (*.ino)
 2. Breadboard Diagram
-3. [Tinkercad Diagram and Simulation](https://www.tinkercad.com/things/9vwfy596pfp-fantabulous-jaban)
+3. [Tinkercad Diagram and Simulation](https://www.tinkercad.com/things/9diQof6uELP-incredible-maimu?sharecode=pEBPid3M_9uxhOPiXqE0Gvor2bIYjZYh77lYO0see50&fbclid=IwY2xjawNAfRtleHRuA2FlbQIxMABicmlkETFjbFhnV1V2RmI3NHRCZktjAR7ZZI2gTJjoEcyLFkIXhFdlnF_ykVoMCE3CBrQBM_VZjv1AzdrL7XvV__j7CQ_aem_vBMRfgwVeR7BDjvmD4-Vyw)
 4. [Video Simulating the Breadboard and its corresponding Circuit Diagram on TinkerCad](https://drive.google.com/file/d/16adl-0pQ2fCp34VDKxQxXRRikgTh-FW2/view?usp=drive_link)
 
 ## AI
@@ -23,5 +23,6 @@ This repository contains our submission for Laboratory Activity#1: Working with 
 ### Members 
 - John Harold R. Magma - 100
 - Keren G. Dellosa - 99
+
 
 
