@@ -1,3 +1,8 @@
+//This code is for our Arduino R4, different from the code of Simulator 
+//as the simulator runs in Arduino R3, which only supports some 
+//digital pins as pwm for analog while R4 supports
+//all the digital pins as pwm for analog
+
 int leds[] = {12, 11, 10, 9, 8}; 
 int numLeds = 5;
 
@@ -12,7 +17,6 @@ void loop() {
 
   // === Turn ON LEDs one by one ===
   while (i < numLeds) {
-    if (leds[i] == 9 || leds[i] == 10 || leds[i] == 11) {
       int step = 0;
       while (step <= 100) {
         int brightness = map(step, 0, 100, 0, 255);
@@ -20,9 +24,6 @@ void loop() {
         delay(10);  // smooth fade (~1s total)
         step++;
       }
-    } else {
-      digitalWrite(leds[i], HIGH);
-    }
     delay(1000);  // 1s delay before next LED
     i++;
   }
@@ -30,7 +31,6 @@ void loop() {
   // === Turn OFF LEDs one by one ===
   i = 0;
   while (i < numLeds) {
-    if (leds[i] == 9 || leds[i] == 10 || leds[i] == 11) {
       int step = 100;
       while (step >= 0) {
         int brightness = map(step, 0, 100, 0, 255);
@@ -38,9 +38,6 @@ void loop() {
         delay(10);  // smooth fade (~1s total)
         step--;
       }
-    } else {
-      digitalWrite(leds[i], LOW);
-    }
     delay(1000);  // 1s delay before next LED
     i++;
   }
