@@ -1,6 +1,6 @@
 # Laboratory Activity#3: Working with Sensors
 
-This repository contains our submission for Laboratory Activity#2: Working with Sensors
+This repository contains our submission for Laboratory Activity#3: Working with Sensors
 
 ## Table of Contents
 1. [Files Description](#files)
@@ -23,3 +23,4 @@ This repository contains our submission for Laboratory Activity#2: Working with 
 ### Members 
 - Jemuel Chris N. Ambong - 99
 - John Harold R. Magma - 100
+
