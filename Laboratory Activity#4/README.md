@@ -1,6 +1,6 @@
-# Laboratory Activity#3: Working with Sensors
+# Laboratory Activity #4: Arduino Serial Connection
 
-This repository contains our submission for Laboratory Activity#2: Working with Sensors
+This repository contains our submission for Laboratory Activity #4: Arduino Serial Connection
 
 ## Table of Contents
 1. [Files Description](#files)
@@ -23,3 +23,4 @@ This repository contains our submission for Laboratory Activity#2: Working with 
 ### Members 
 - Jemuel Chris N. Ambong - 99
 - Keren G. Dellosa - 100
+
