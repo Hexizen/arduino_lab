@@ -21,11 +21,9 @@ This repository contains our submission for Laboratory Activity#5: Receiving Ser
 ## Grades
 - **Leader:** John Harold R. Magma
 ### Members 
-- John Harold R. Magma
 - Jemuel Chris N. Ambong
 - Keren G. Dellosa
 - Jamil S. Mariano
 - Rachelle Yazmhine C. Mendez
 - Betina B. Arrojo
-
 - Audric P. Pascual
