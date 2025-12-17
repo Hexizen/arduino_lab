@@ -22,8 +22,8 @@ This repository contains our submission for Laboratory Activity#6: Bidirectional
 - **Leader:**  Rachelle Yazmhine C. Mendez
 ### Members 
 - Jemuel Chris N. Ambong
-- Keren G. Dellosa
-- Jamil S. Mariano
-- John Harold R. Magma
 - Betina B. Arrojo
+- Keren G. Dellosa
+- John Harold R. Magma
+- Jamil S. Mariano
 - Audric P. Pascual
