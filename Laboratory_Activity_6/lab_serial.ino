@@ -17,24 +17,30 @@ const long debounceDelay = 50; // ms
 int buttonState[3];      
 int lastButtonState[3] = {HIGH, HIGH, HIGH}; // HIGH because of PULLUP
 
-// Function to handle serial incoming data and toggle LEDs
 void handleInboundSerial() {
-  if (Serial.available()) {
-    // Read the incoming byte (case-insensitive)
-    char incomingChar = Serial.read();
+  if (Serial.available() > 0) {
+    // 1. Read the entire string from the buffer
+    String input = Serial.readString();
     
-    // Convert to lowercase for case-insensitive check
-    char command = tolower(incomingChar); 
-    
-    if (command == '1') {
-      // Toggle Red LED
-      digitalWrite(RED_LED_PIN, !digitalRead(RED_LED_PIN));
-    } else if (command == '2') {
-      // Toggle Green LED
-      digitalWrite(GREEN_LED_PIN, !digitalRead(GREEN_LED_PIN));
-    } else if (command == '3') {
-      // Toggle Blue LED
-      digitalWrite(BLUE_LED_PIN, !digitalRead(BLUE_LED_PIN));
+    // 2. Remove whitespace (like "Enter", Newline \n, or Carriage Return \r)
+    input.trim(); 
+
+    // 3. STRICT CHECK: Only proceed if the remaining length is EXACTLY 1
+    if (input.length() == 1) {
+      
+      char command = input.charAt(0); // Get that single character
+
+      if (command == '1') {
+        digitalWrite(RED_LED_PIN, !digitalRead(RED_LED_PIN));
+      } else if (command == '2') {
+        digitalWrite(GREEN_LED_PIN, !digitalRead(GREEN_LED_PIN));
+      } else if (command == '3') {
+        digitalWrite(BLUE_LED_PIN, !digitalRead(BLUE_LED_PIN));
+      }
+    } 
+    else {
+      // Optional: Print a message saying it was rejected (for debugging)
+      // Serial.println("Error: Command too long");
     }
   }
 }
@@ -71,6 +77,10 @@ void handleOutboundButtons() {
 
 void setup() {
   Serial.begin(9600); 
+  
+  // IMPORTANT: Set timeout to 10ms or 50ms (default is 1000ms which is too slow)
+  // This allows Serial.readString() to finish quickly.
+  Serial.setTimeout(10); 
 
   // Set LED pins as output and ensure they start LOW (OFF)
   pinMode(RED_LED_PIN, OUTPUT);
