@@ -1,4 +1,4 @@
-# Laboratory Activity#6: Bidirectional Control using Arduino and Python
+# Laboratory Activity #7: Controllling Arduino using FastAPI
 
 This repository contains our submission for Laboratory Activity#6: Bidirectional Control using Arduino and Python
 
@@ -27,4 +27,5 @@ This repository contains our submission for Laboratory Activity#6: Bidirectional
 - John Harold R. Magma
 - Jamil S. Mariano
 - Rachelle Yazmhine C. Mendez
+
 - Audric P. Pascual
