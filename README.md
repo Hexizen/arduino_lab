@@ -11,8 +11,8 @@ This repository contains our submission for the Laboratory Activities in COSC 11
 6. [Laboratory Activity#6: Bidirectional Control using Arduino and Python](https://github.com/Hexizen/arduino_lab/tree/main/Laboratory_Activity_6)
 7. [Laboratory Activity#7: Controllling Arduino using FastAPI](https://github.com/Hexizen/arduino_lab/tree/main/Laboratory_Activity_7)
 8. Laboratory Exams
-- [Midterm Exam]
-- [Finals Exam]
+- [Midterm Exam](https://github.com/Hexizen/arduino_lab/tree/main/Laboratory_Exams/Midterm)
+- [Finals Exam](https://github.com/Hexizen/arduino_lab/tree/main/Laboratory_Exams/Finals)
 
 ## <h1> Laboratory submissions include the following: </h1>
 
