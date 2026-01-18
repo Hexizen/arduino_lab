@@ -10,6 +10,9 @@ This repository contains our submission for the Laboratory Activities in COSC 11
 5. [Laboratory Activity#5: Receiving Serial Connection using Arduino from Python](https://github.com/Hexizen/arduino_lab/tree/main/Laboratory_Activity_5)
 6. [Laboratory Activity#6: Bidirectional Control using Arduino and Python](https://github.com/Hexizen/arduino_lab/tree/main/Laboratory_Activity_6)
 7. [Laboratory Activity#7: Controllling Arduino using FastAPI](https://github.com/Hexizen/arduino_lab/tree/main/Laboratory_Activity_7)
+8. Laboratory Exams
+- [Midterm Exam]
+- [Finals Exam]
 
 ## <h1> Laboratory submissions include the following: </h1>
 
